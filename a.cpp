@@ -5,7 +5,7 @@ int sum(int a, int b) {
     return a + b;
 }
 int main() {
-    int n;
-    cin >> n;
-    cout << n << endl;
+    int a, b;
+    cin >> a >> b;
+    cout << sum(a, b) << endl;
 }
